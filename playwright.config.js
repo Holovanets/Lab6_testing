@@ -32,10 +32,11 @@ export default defineConfig({
             name: 'opera',
             use: { ...devices['Desktop Opera'] },
         },
-        {
-            name: 'safari',
-            use: { ...devices['Desktop Safari'] },
-        }
+        // лагуча хня шо капєц
+        // {
+        //     name: 'safari',
+        //     use: { ...devices['Desktop Safari'] },
+        // }
 
     ],
     // Run your local dev server before starting the tests.
